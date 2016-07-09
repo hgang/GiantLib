@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="SSO接口:发短信"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/post_txt_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="url"/>
+
+        <EditText
+            android:id="@+id/post_edt_url"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="http://test.api.piseneasy.com:9212/Router/Rest/Post"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/post_txt_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机号"/>
+
+        <EditText
+            android:id="@+id/post_edt_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="18349255940"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/post_btn_execute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post"/>
+
+    <Button
+        android:id="@+id/post_json_btn_execute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post json"/>
+
+</LinearLayout>

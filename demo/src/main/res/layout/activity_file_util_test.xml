@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pisen.baselib.demo.FileUtilTestActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/menu_item_shape"
+        android:gravity="center"
+        android:onClick="doWifiMonitorClick"
+        android:text="获取指定目录下所有文件名(手机根目录)"
+        android:id="@+id/txt_list_sub_file_name" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/menu_item_shape"
+        android:gravity="center"
+        android:onClick="doWifiMonitorClick"
+        android:text="向目标文件写入"
+        android:id="@+id/txt_write_to_file" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/menu_item_shape"
+        android:gravity="center"
+        android:onClick="doWifiMonitorClick"
+        android:text="复制"
+        android:id="@+id/txt_copy" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/menu_item_shape"
+        android:gravity="center"
+        android:onClick="doWifiMonitorClick"
+        android:text="删除"
+        android:id="@+id/txt_del" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/menu_item_shape"
+        android:gravity="center"
+        android:onClick="doWifiMonitorClick"
+        android:text="获取文件大小"
+        android:id="@+id/txt_get_file_size" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/menu_item_shape"
+        android:gravity="center"
+        android:onClick="doWifiMonitorClick"
+        android:text="获取文件扩展名"
+        android:id="@+id/txt_get_file_ext" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/menu_item_shape"
+        android:gravity="center"
+        android:onClick="doWifiMonitorClick"
+        android:text="移动"
+        android:id="@+id/txt_move" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/menu_item_shape"
+        android:gravity="center"
+        android:onClick="doWifiMonitorClick"
+        android:text="判断是否存在"
+        android:id="@+id/txt_file_exist" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/menu_item_shape"
+        android:gravity="center"
+        android:onClick="doWifiMonitorClick"
+        android:text="重命名"
+        android:id="@+id/txt_rename" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/menu_item_shape"
+        android:gravity="center"
+        android:onClick="doWifiMonitorClick"
+        android:text="获取文件内容"
+        android:id="@+id/txt_get_file_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txt_result"
+        />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/get_edt_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="please input the target url"
+        android:text="https://www.baidu.com/s"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/get_edt_param_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="param name"
+            android:text="wd"/>
+
+        <EditText
+            android:id="@+id/get_edt_param_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="param value"
+            android:text="volley"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/get_btn_execute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="execute"/>
+
+
+</LinearLayout>
